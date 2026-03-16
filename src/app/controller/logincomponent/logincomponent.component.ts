@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './logincomponent.component.css'
 })
 export class LogincomponentComponent {
-
+//test
 }
