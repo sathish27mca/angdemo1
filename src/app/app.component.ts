@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angdemo1';
+  callLoginMethod() {
+    const loginComponent = new LoginComponent();
+    loginComponent.findDifferenceBetweenDates(); // Replace 'someMethod' with the actual method name in LoginComponent
+  }
 }
